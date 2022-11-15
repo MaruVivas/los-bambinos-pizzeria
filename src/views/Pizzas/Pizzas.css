@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    color: white;
+}
+.card {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 350px;
+    padding: 0;
+    box-shadow: 0.5px 0.5px 10px 1px grey;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pizzas-container {
+    width: 70%;
+    justify-content: center;
+   
+
+}
+
+ .card img {
+    height: 250px;
+
+}
+
+h2 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+h2::first-letter {
+    text-transform: capitalize;
+}
+
+.icon {
+    color: white;
+    margin: 1rem;
+}
+
+.pizza-detail {
+    width: 700px;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.pizza-info{
+    margin: 2rem;
+}
+
+.pizza-detail p {
+    margin: 1rem;
+    text-align: justify;
+}
+
+.pizza-detail-img {
+    width: 700px;
+}
+
+ul {
+    margin: 1rem 1rem;
+}
+

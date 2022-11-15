@@ -1,0 +1,52 @@
+.navbar-header {
+    background-image: linear-gradient( rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,212,255,0.01));
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.logo {
+    padding: 0;
+    display: flex;
+}
+
+.img {
+    width: 1rem;
+}
+
+.brand {
+    margin-left: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    width: 15rem;
+    font-size:1.2rem;
+}
+
+
+
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+.unactive {
+    color: gray;
+    text-decoration: none;
+}
+
+
