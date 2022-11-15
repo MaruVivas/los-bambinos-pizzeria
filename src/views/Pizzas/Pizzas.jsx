@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom"
 
 const Pizzas = () => {
     const { pizzas } = useContext(Context)
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     const viewPizza = (id) => navigate(`/pizzas/${id}`)
 

@@ -29,8 +29,8 @@ function App() {
         <Navbar/>
           <Routes>
             <Route path="/" element= { <Home/> }></Route>
-            <Route path="/pizzas" element= { <Pizzas/> }></Route>
-            <Route path="/pizzas/:id" element= { <Pizza/> }></Route>
+            <Route path='/pizzas' element= { <Pizzas/> }></Route>
+            <Route path='/pizzas/:id' element= { <Pizza/> }></Route>
           </Routes>
         </BrowserRouter>
       </Context.Provider>

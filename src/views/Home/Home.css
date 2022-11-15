@@ -9,16 +9,18 @@ body {
     width: 50%;
     height: 800px;
     display: flex;
-    flex-direction: start;
+    
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
-.home-button {
+.description {
     color: white;
-    background-color: black;
-    border: 1px solid white;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: 5rem;
     border-radius: 5px;
     padding: 0.5rem;
-    width: 10rem;
+    width: 20rem;
 }

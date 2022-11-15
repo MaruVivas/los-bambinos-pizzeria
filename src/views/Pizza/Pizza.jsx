@@ -8,9 +8,11 @@ const Pizza = () => {
 
     const [ pizzaSelected, setPizzaSelected ] = useState({})
 
-    useEffect (() => {
+    useEffect(() => {
+        
         const pizzaSelected = pizzas.filter((pizza) => pizza.id === id)
         setPizzaSelected(pizzaSelected[0])
+        
     }, [])
     return (
         <div className="pizza-detail" key={pizzaSelected.id}>
